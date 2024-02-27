@@ -1,0 +1,13 @@
+
+.title{
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    color: var(--title);
+
+    text-transform: uppercase;
+
+}
+
+.sobre{
+    color: white;
+}
