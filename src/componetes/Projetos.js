@@ -36,10 +36,13 @@ const Projetos = () => {
   return (
     <section className={`container`}>
       <div className={`row d-flex justify-content-center mb-5 pb-xl-5 `}>
-        <div className={`text-xl-end text-center `}>
+        
+        <div data-animaright='rigth' className={`text-xl-end text-center `}>
           <Subtitle subtitle={'Lançamentos Recentes'}></Subtitle>
         </div>
-        <p className={`fs-3 text-center mb-5`}>"Eu sei o preço do sucesso: dedicação, trabalho duro e uma incessante devoção às coisas que você quer ver acontecer."</p>
+
+        <p data-anima='left' className={`fs-3 text-center mb-5`}>"Eu sei o preço do sucesso: dedicação, trabalho duro e uma incessante devoção às coisas que você quer ver acontecer."</p>
+
         {listaProjetos.map((data) => (
           <div className="card m-2 text-white " style={{width: "20rem", backgroundColor:"var(--card-background)"}}>
             <img src={data.image} className={`card-img-top`} alt="..."/>

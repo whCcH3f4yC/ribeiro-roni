@@ -11,3 +11,24 @@ body {
   font-family: "Times New Roman",serif;
   color: white;
 }
+
+[data-anima]{
+  opacity: 0;
+  transform: translate3d(-90px ,0 , 0);
+}
+[data-anima].left{
+  opacity: 1;
+    transition:  2s;
+    transform: translate3d(0 ,0 , 0);
+}
+
+[data-animaright]{
+  opacity: 0;
+  transform: translate3d(90px ,0 , 0);
+}
+
+[data-animaright].rigth{
+  opacity: 1;
+   transition:  2s;
+    transform: translate3d(0 ,0 , 0);
+}

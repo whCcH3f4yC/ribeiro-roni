@@ -33,7 +33,7 @@ const Contato = () => {
     <section className={`container`}>
       <div className={`row`}>
         <h2 className={`display-3 text-center mb-5`} style={{color: "var(--title)"}}>Vamos Conversar?</h2>
-        <div className={`col-xl-6 d-flex justify-content-center justify-content-xl-end`}>
+        <div data-anima='left' className={`col-xl-6 d-flex justify-content-center justify-content-xl-end`}>
           <div>
             <img src={contato} alt="Foto de contato"/>
           </div>
@@ -42,7 +42,7 @@ const Contato = () => {
         <div className={`col-xl-6 `}>
           <div className={`row justify-content-xl-start justify-content-center text-center mb-5 pb-5`}>
             {listaContato.map((data) => (
-              <div className={`card p-4 pb-4 pt-5 text-white mb-xl-3 mt-xl-0 mt-3`}
+              <div data-animaright='rigth' className={`card p-4 pb-4 pt-5 text-white mb-xl-3 mt-xl-0 mt-3`}
                    style={{maxWidth: "17rem", backgroundColor: "var(--card-background)"}}>
                 <div className={`card-header p-3`}>
                   <img style={{height: "50px", padding: "6px"}} src={data.icon} alt="..."/>

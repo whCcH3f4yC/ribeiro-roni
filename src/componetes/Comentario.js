@@ -9,14 +9,14 @@ const Comentario = () => {
     <section className={`container`}>
       <div className={`row mb-5 pb-5`}>
           <h2 className={`display-3 text-center mb-5`} style={{color: "var(--title)"}}>O que os clientes dizem</h2>
-        <div className={`col-xl-6 d-flex justify-content-center justify-content-xl-end`}>
+        <div data-anima='left' className={`col-xl-6 d-flex justify-content-center justify-content-xl-end`}>
           <div>
             <img src={fotoComentario} alt="Foto do Cliente"/>
           </div>
         </div>
 
         <div className={`col-xl-6`}>
-          <div className={`col-xl-8 text-xl-start text-center mt-xl-0 mt-4`}>
+          <div data-animaright='rigth' className={`col-xl-8 text-xl-start text-center mt-xl-0 mt-4`}>
             <p className={`fs-4`}>
               "Verdadeiramente impressionante! A estética moderna e intuitiva, combinada com uma navegação suave e
               responsividade exemplar, reflete sua habilidade técnica e atenção aos detalhes. A estrutura organizada do
