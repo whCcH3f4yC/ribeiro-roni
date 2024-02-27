@@ -9,7 +9,7 @@ const Home = () => {
 
           <div data-anima='left' className={` col-xl-6 d-flex justify-content-center justify-content-xl-end`}>
             <div>
-              <img style={{}} className={`d-block`} src={fotoPerfil} alt="Foto de Perfil"/>
+              <img style={{}} className={`d-block `} src={fotoPerfil} alt="Foto de Perfil"/>
             </div>
           </div>
 

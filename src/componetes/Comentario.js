@@ -11,7 +11,7 @@ const Comentario = () => {
           <h2 className={`display-3 text-center mb-5`} style={{color: "var(--title)"}}>O que os clientes dizem</h2>
         <div data-anima='left' className={`col-xl-6 d-flex justify-content-center justify-content-xl-end`}>
           <div>
-            <img src={fotoComentario} alt="Foto do Cliente"/>
+            <img className={`img`} src={fotoComentario} alt="Foto do Cliente"/>
           </div>
         </div>
 

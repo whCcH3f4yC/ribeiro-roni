@@ -35,12 +35,12 @@ const Contato = () => {
         <h2 className={`display-3 text-center mb-5`} style={{color: "var(--title)"}}>Vamos Conversar?</h2>
         <div data-anima='left' className={`col-xl-6 d-flex justify-content-center justify-content-xl-end`}>
           <div>
-            <img src={contato} alt="Foto de contato"/>
+            <img className={`img`} src={contato} alt="Foto de contato"/>
           </div>
         </div>
 
         <div className={`col-xl-6 `}>
-          <div className={`row justify-content-xl-start justify-content-center text-center mb-5 pb-5`}>
+          <div className={`row  justify-content-xl-start justify-content-center text-center mb-5 pb-5`}>
             {listaContato.map((data) => (
               <div data-animaright='rigth' className={`card p-4 pb-4 pt-5 text-white mb-xl-3 mt-xl-0 mt-3`}
                    style={{maxWidth: "17rem", backgroundColor: "var(--card-background)"}}>
