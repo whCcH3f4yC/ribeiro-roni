@@ -3,9 +3,17 @@ import Subtitle from "./Subtitle";
 import caravan from '../image/caravan.png'
 import animaisSelvagem from '../image/animaisSelvagem.png'
 import imagemDoDia from '../image/imagemDoDia.png'
+import vixio from '../image/vixio.png'
 
 const Projetos = () => {
   const listaProjetos = [
+    {
+      image:vixio,
+      title: 'Vixio',
+      describe: 'O projeto em desenvolvimento é uma aplicação web que exibe uma lista de produtos de uma loja fictícia. Os produtos são categorizados em diferentes seções, como Eletrônicos, Joias, Moda Masculina e Moda Feminina.' ,
+      link: 'https://vixio.netlify.app/',
+      github: 'https://github.com/whCcH3f4yC/vixio-ecommerce'
+    },
     {
       image: caravan,
       title: 'Caravan',
@@ -48,7 +56,7 @@ const Projetos = () => {
             <img src={data.image} className={`card-img-top`} alt="..."/>
             <div className={` card-body `}>
                 <h5 className={` card-title `}>{data.title}</h5>
-              <p className={`card-text`}>{data.describe}</p>
+              <p style={{height: '160px'}} className={`card-text`}>{data.describe}</p>
 
                 <a href={data.link} className={`btn m-2`} style={{backgroundColor: 'var(--title)'}}>Website</a>
                 <a href={data.github} className={`btn m-2`} style={{backgroundColor: 'var(--title)'}}>GitHub</a>
